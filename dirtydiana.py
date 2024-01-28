@@ -4,11 +4,12 @@ from concurrent.futures import ThreadPoolExecutor
 
 API_URLS = {
     "https://discord.com/api/v9/outbound-promotions/1187085447709610098/claim": "1month.txt",
-    "https://discord.com/api/v9/outbound-promotions/1168622933334294528/claim": "3month.txt"
+    "https://discord.com/api/v9/outbound-promotions/1168622933334294528/claim": "3month.txt",
+    "https://discord.com/api/v9/outbound-promotions/1182898306628731011/claim": "youtube.txt"
 }
 
 TOKENS_FILE = "tokens.txt"
-PROXY_URL = "http://proxy.surdm.com:8000"
+PROXY_URL = "http://e50347a495bbd6c0:Z94mmfvbe8yxVTWEut0j_country-US@residential.vproxy.gg:1111"
 
 def read_access_tokens():
     try:
